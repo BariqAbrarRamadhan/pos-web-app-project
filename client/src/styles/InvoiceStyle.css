@@ -1,0 +1,90 @@
+#invoice-POS {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5mm;
+  margin: 8px auto;
+  width: 100mm;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+}
+::selection {
+  background: #f31544;
+  color: #fff;
+}
+::moz-selection {
+  background: #f31544;
+  color: #fff;
+}
+.info h1 {
+  font-size: 1.2em;
+  color: #222;
+}
+h2 {
+  font-size: 1.1em;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+p {
+  font-size: 0.7em;
+  color: #666;
+  line-height: 1.5em;
+}
+#top,
+#mid,
+#bot {
+  border-bottom: 1px solid #eee;
+}
+#top {
+  min-height: 100px;
+}
+#bot {
+  min-height: 50px;
+}
+#top .logo {
+  height: 120px;
+  width: 120px;
+  background: url(.././images/LogoMJMAA.png) no-repeat;
+  background-position: center;
+  background-size: 180px 180px;
+}
+.info {
+  display: block;
+}
+.title {
+  float: right;
+}
+.title p {
+  text-align: right;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tabletitle {
+  font-size: 0.7em;
+  background: #eee;
+}
+.service {
+  border-bottom: 1px solid #eee;
+}
+.item {
+  width: 40mm;
+}
+.itemtext {
+  font-size: 0.8em;
+}
+#legalcopy {
+  margin-top: 4mm;
+}
+.legal {
+  font-size: 0.8em;
+}
+.hr {
+  border: 0;
+  height: 1px;
+  margin: 24px auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

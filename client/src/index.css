@@ -1,0 +1,44 @@
+.item-button button {
+  margin-top: 1rem;
+  width: 190px;
+  background-color: #1890ff;
+  color: white;
+}
+.item-button button:hover {
+  border-radius: 5px;
+  background-color: white;
+}
+.card-transaksi img {
+  border: solid 1px #f0f0f0;
+  max-width: 100%;
+  height: auto;
+}
+.item-transaksi {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.register input {
+  width: 360px;
+}
+.register-form {
+  background-color: #f0f0f0;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.register-form h1 {
+  text-align: center;
+  color: black;
+}
+.register-form h3 {
+  text-align: center;
+  color: #1890ff;
+}
